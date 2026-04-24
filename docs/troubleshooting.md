@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Troubleshooting
----# Troubleshooting Issues
+---
+# Troubleshooting Issues
 
 What to do when something goes wrong.
 

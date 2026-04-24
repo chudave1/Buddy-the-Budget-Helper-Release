@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Transactions
-
+---
+# Working with Transactions
 How to bring transactions in, categorize them, and summarize them for your budget.
 
 ## Monthly Tasks Menu

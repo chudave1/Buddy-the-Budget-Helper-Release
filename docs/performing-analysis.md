@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Analysis 
----# Performing Analysis
+---
+# Performing Analysis
 
 How to perform analysis on your budget data.
 
