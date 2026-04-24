@@ -1,3 +1,8 @@
+html {
+  /* Prevent the browser’s default white canvas showing around the page. */
+  background-color: #f3f4f6;
+}
+
 body {
   /* Subtle “mica-like” neutral gradient (web approximation). */
   background-color: #f3f4f6;
@@ -6,6 +11,8 @@ body {
     radial-gradient(1000px 500px at 80% 10%, rgba(230, 240, 255, 0.35), rgba(255, 255, 255, 0) 55%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0) 35%);
   background-attachment: fixed;
+  margin: 0;
+  padding: 24px;
   font-family: "Segoe UI", Arial, sans-serif;
   line-height: 1.6;
   min-height: 100vh;
