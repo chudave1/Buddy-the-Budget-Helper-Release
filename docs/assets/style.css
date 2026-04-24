@@ -1,0 +1,35 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #1a237e; /* deep navy */
+}
+
+/* Links */
+a {
+  color: #2e7d32; /* financial green */
+}
+
+/* Code blocks */
+code {
+  background: #f4f6f8;
+  padding: 2px 4px;
+}
+
+/* Tables (great for finance apps) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background: #e8f5e9;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}

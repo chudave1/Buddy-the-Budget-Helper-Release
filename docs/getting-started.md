@@ -1,3 +1,7 @@
+---
+layout: default
+title: Getting Started
+---
 # Getting Started
 
 Here's how to set up Buddy the Budget Helper.

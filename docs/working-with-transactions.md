@@ -1,4 +1,6 @@
-# Working with Transactions
+---
+layout: default
+title: Transactions
 
 How to bring transactions in, categorize them, and summarize them for your budget.
 

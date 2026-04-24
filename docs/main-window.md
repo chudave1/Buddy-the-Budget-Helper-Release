@@ -1,3 +1,7 @@
+---
+layout: default
+title: Main Window
+---
 # Working with the Main Window
 
 The main window is your primary view of budget versus actual amounts. Here's how to use it.

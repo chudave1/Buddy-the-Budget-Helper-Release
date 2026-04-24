@@ -1,4 +1,7 @@
-# Taking Care of Your Data
+---
+layout: default
+title: Your Data
+---# Taking Care of Your Data
 
 How Buddy stores your data and how to back it up and restore it.
 

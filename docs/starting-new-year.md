@@ -1,4 +1,7 @@
-# Starting a New Year
+---
+layout: default
+title: New Year
+---# Starting a New Year
 
 ## Database considerations
 

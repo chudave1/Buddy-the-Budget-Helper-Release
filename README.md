@@ -29,5 +29,5 @@ Buddy the Budget Helper, a Windows (WinUI) packaged application for managing you
 
 ## 📊 Templates
 
-* [Define and import categories](templates/Category Import Template.csv)
+* [Define and import categories](templates/Category_Import_Template.csv)
 

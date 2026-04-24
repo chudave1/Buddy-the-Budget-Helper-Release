@@ -1,3 +1,7 @@
+---
+layout: default
+title: Importing History
+---
 # Importing Historical Data
 
 You can import previous years of summary data using a CSV file you generate from your source of historical data.
