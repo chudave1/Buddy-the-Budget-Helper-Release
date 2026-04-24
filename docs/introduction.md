@@ -41,7 +41,7 @@ Budgets are your planned amounts per category. Define your budgets in **Setup �
 You can work with monthly or yearly budget amounts depending on how you set up your category. Some items (e.g., "Mortgage Payment") might be budgeted monthly. Others (e.g., "Home Insurance") might be budgeted yearly, regardless of when the payment occurs. Using both keeps large yearly payments from over-stating your monthly view.
 
 ### What Is a Page Layout
-ntrols how categories are organized and displayed (e.g., order, hierarchy, which totals appear). You choose how many pages you want and what appears on each line. For example, you might have one page for spending and another for income. Define your page layout in **Setup → Categories**. 
+Controls how categories are organized and displayed (e.g., order, hierarchy, which totals appear). You choose how many pages you want and what appears on each line. For example, you might have one page for spending and another for income. Define your page layout in **Setup → Categories**. 
 
 ### What Are Transactions
 Transactions are the individual debits and credits from your accounts (imported or entered). Each month you download transactions from your bank or credit card site and import them into Buddy. 

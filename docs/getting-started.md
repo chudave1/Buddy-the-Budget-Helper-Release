@@ -36,10 +36,10 @@ Manage your budget amounts by category and year. Create or edit budget rows. You
 Use the **Import** menu to bring in categories or budget data from files instead of typing everything by hand.
 
 ### Categories
-Import category definitions from a CSV file. Choose the file to import first, then the mapping name you defined in **Setup → Categories**.
+Import category definitions from a CSV file created using the template bwlow. Choose the file to import first, then the mapping name you defined in **Setup → Categories**.
 
 ### Budgets
-Import yearly or monthly budget amounts from a CSV file. Choose the file to import first, then the mapping name you defined in **Setup → Budgets**.
+Import yearly or monthly budget amounts from a CSV file.  Use **Setup → Budget → Create Excel Template** to create a template specific to your categories.  Choose the file to import first, then the mapping name you defined in **Setup → Budgets**.
 
 ### Templates
-* [Define and import categories](../templates/Category_Import_Template.csv)
+* [Define and import categories](https://github.com/chudave1/Buddy-the-Budget-Helper-Release/blob/main/templates/Category_Import_Template.csv)

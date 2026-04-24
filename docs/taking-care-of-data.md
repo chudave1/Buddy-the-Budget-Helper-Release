@@ -36,7 +36,8 @@ If you need to recover from a backup, use this process to replace the current da
 5. Delete BuddyBudgetHub.db (or move elsewhere).  Then rename your selected backup database to BuddyBudgetHub.db.
 6. Open Buddy (the application) and you should see your backed up data.
 
-## Buddy keeps track of the database version to ensure that the database remains compatible with the application.  
+## Buddy keeps track of the database version 
+To ensure that the database remains compatible with the application, there is version information inside the database. 
 - If you restore an older version of the database, Buddy will update it, if he can do so without impacting your existing data.
 	- You can see the database version in the *View Backups* window.
 - If you install a new version of Buddy, Buddy will update your database to support the new application features.
@@ -56,14 +57,12 @@ If you need to start new (empty) database, use this process to create a database
 ## Externally accessing Buddy's database
 
 ### Buddy uses a widely used SQL database called SQLite.  A variety of tools support accessing it's data.  
-
 - You will need to provide the database path (from *Help/About* menu) to these tools so they can establish a connection.
-
 - The database name is BuddyBudgetHub.db.
 - Buddy's database schema is Copyright (c) 2026 David A Chu.
 
 ## Using SQL to access or correct your database
-For advanced users, you can connect directly to Buddy's database with any SQLite client program, for example *DB Browser*, *DBeaver* or *Visual Studio Code*.   Use with care and only after backing up if you are changing data. 
+For advanced users, you can connect directly to Buddy's database with any SQLite client program, for example *DB Browser*, *DBeaver* or *Visual Studio Code*.   Use with care and only after backing up if you are changing any data. 
 
 You can also use Buddy's database with any desktop reporting application that supports SQLite, for example *Visual DB*, *DBeaver*, or *Helical Insight*.
 

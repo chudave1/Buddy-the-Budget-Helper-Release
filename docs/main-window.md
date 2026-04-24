@@ -34,9 +34,8 @@ Both adjustments and corrections will create notes for your reference.
 ### Adjusting Totals
 When the summarized total doesn't match your records, you can change it to a new amount. 
 
-For categories budgeted yearly, see the **Is Yearly** checkbox, you are replacing the yearly amount.
-
-For categories budgeted yearly, select the **Month** you want to adjust.
+- For categories budgeted yearly, see the **Is Yearly** checkbox, you are replacing the yearly amount.
+- For categories budgeted yearly, select the **Month** you want to adjust.
 
 ### Correcting or Deleting a Transaction
 From the detail view you can correct a transaction. Then use the appropriate action (e.g., *Save* or *Delete*) for that row.

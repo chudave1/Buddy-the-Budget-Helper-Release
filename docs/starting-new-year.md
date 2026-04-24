@@ -15,5 +15,3 @@ title: New Year
 - If you want to make significant changes to your categories, then last year really won't be comparable to this year and you can start with a new database.
 	- See [Taking Care of Your Data](taking-care-of-data.md) for further details on having Buddy create a fresh database.	
 	- You can export your last year's summary data, re-assign it to your current categories using Excel or a similiar spreadsheet program, and then import that history back into your new database.  See [Importing Historical Data](loading-history.md).	
-
-
