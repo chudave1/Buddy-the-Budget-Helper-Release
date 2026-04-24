@@ -1,3 +1,4 @@
 theme: jekyll-theme-architect
 title: Help for Buddy the Budget Helper
 description: User guide and documentation
+baseurl: "/Buddy-the-Budget-Helper-Release"
