@@ -2,7 +2,7 @@
 layout: default
 title: Introduction
 ---
-
+# Introduction
 A short overview of Buddy the Budget Helper and the terms you'll see throughout the app and this help.
 
 ## What Does Buddy the Budget Helper Do?
