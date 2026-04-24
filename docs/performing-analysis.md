@@ -9,12 +9,11 @@ Here is where you will find the dashboards and reports for your budget data anal
 ### Dashboard Menu
 
 Shows the *Dashboard Launcher* where you can pick the dashboard you want to see.  Options are:
-- *Actual versus Budget* — Pick any posting or summary level category and compare it to your budgeted amount.
-- *Year versus Year* — Pick any posting or summary level category and compare it to a previous year.
+- *Actual versus Budget* â€” Pick any posting or summary level category and compare it to your budgeted amount.
+- *Year versus Year* â€” Pick any posting or summary level category and compare it to a previous year.
 	- The above dashboards are available as column or line charts.
 	- Use the *Yearly Totals* option to include category amounts budgeted by year. 
-
-- *Category Breakdown by Amount* — Pick any summary level category and see the contributing amount for all the child categories it contains.
+- *Category Breakdown by Amount* â€” Pick any summary level category and see the contributing amount for all the child categories it contains.
 - *Category Breakdown by Percent* - Pick any summary level category and see the contributing percent for all the child categories it contains.
 	- The above dashboards are available as stacked column charts or stacked line charts.
 
