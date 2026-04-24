@@ -1,4 +1,7 @@
-# Introduction
+---
+layout: default
+title: Introduction
+---
 
 A short overview of Buddy the Budget Helper and the terms you'll see throughout the app and this help.
 
