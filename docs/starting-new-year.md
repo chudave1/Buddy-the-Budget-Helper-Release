@@ -4,6 +4,9 @@ title: New Year
 ---
 # Starting a New Year
 
+## Page Layout considerations
+A categories page layout is copied to the budget for that year so that the page layout for any given year is preserved.  This design allows your categories to remain generally stable, allowing for year versus year comparison.  While the page layout, how you display those categories, can change every year.  The process of exporting and importing a budget template for the new year makes this easy to do.
+
 ## Database considerations
 - First use **Backup Database** to make a year-end backup of your data.  See [Taking Care of Your Data](taking-care-of-data.md).
 
@@ -11,6 +14,7 @@ title: New Year
 	- You can add new categories using *Setup Categories*
 	- You can adjust the page layout using *Setup Categories*
 	- You can export a new budget template and import your new year budgets.  
+	- You will end up with multiple budget years in your database
 	
 - If you want to make significant changes to your categories, then last year really won't be comparable to this year and you can start with a new database.
 	- See [Taking Care of Your Data](taking-care-of-data.md) for further details on having Buddy create a fresh database.	

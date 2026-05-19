@@ -24,7 +24,7 @@ You are now ready to import transactions.
 Use the **Setup** menu to create and edit the building blocks of your budget.
 
 ### Accounts
-Manage your accounts (e.g., checking, savings, credit cards). Add, edit, or remove accounts here. You cannot remove an account that has any activity. This is where you define the CSV file format you download from this account. Each account can have only one format.
+Manage your accounts (e.g., checking, savings, credit cards). Add, edit, or remove accounts here. You cannot remove an account that has any activity. This is where you define the CSV file format you download from this account. Each account can have only one format.  If you provide the sample header line for the file. Buddy will validate the file format when you import the transactions for that account.
 
 ### Categories
 Manage your categories and their types (header, posting, totals). Build the category hierarchy and display page structure. You will typically import your initial categories; this is where you add new ones.
@@ -43,3 +43,7 @@ Import yearly or monthly budget amounts from a CSV file.  Use **Setup → Budget
 
 ### Templates
 * [Define and import categories](https://github.com/chudave1/Buddy-the-Budget-Helper-Release/blob/main/templates/Category_Import_Template.csv)
+
+## Things to Know
+- As you use Buddy for the first time, size the application windows as you desire, Buddy will use that window size until it's chamged again.
+- Application windows that are grids, have "..." indicators in the column headers to show they are sortable and filterable.  Click on the column header to sort or apply a filter.

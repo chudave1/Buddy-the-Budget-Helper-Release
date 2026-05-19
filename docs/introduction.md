@@ -52,7 +52,7 @@ You can work with monthly or yearly budget amounts depending on how you set up y
 
 ### What Is a Page Layout
 
-Page layout controls how categories are organized and displayed (e.g., order, hierarchy, which totals appear). You choose how many pages you want and what appears on each line. For example, you might have one page for spending and another for income. Define your page layout in **Setup → Categories**. 
+Page layout controls how categories are organized and displayed (e.g., order, hierarchy, which totals appear). You choose how many pages you want and what appears on each line. For example, you might have one page for spending and another for income. Define your page layout in **Setup → Categories**.
 
 ### What Are Transactions
 
