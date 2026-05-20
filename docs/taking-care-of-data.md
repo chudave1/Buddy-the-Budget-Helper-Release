@@ -28,6 +28,7 @@ Note that to prevent data corruption, the restore will occur the **next** time t
 
 ## Where the database is located
 Buddy is a Microsoft Packaged Applicatiion, and all it's content is contained within the Package folder under your Users directory.   Use the following steps to find your database and backups:
+
 	1. Use **About** (from the *Help* menu) and note the *Database path*.  This is where the database resides. 
 	2. Using Windows File Explorer navigate to the database path.  
 		- You should see BuddyBudgetHub.db which is the current database. 
