@@ -45,5 +45,5 @@ Import yearly or monthly budget amounts from a CSV file.  Use **Setup → Budget
 * [Define and import categories](https://github.com/chudave1/Buddy-the-Budget-Helper-Release/blob/main/templates/Category_Import_Template.csv)
 
 ## Things to Know
-- As you use Buddy for the first time, size the application windows as you desire, Buddy will use that window size until it's chamged again.
+- As you use Buddy for the first time, size the application windows as you desire, Buddy will use that window size until it's changed again.
 - Application windows that are grids, have "..." indicators in the column headers to show they are sortable and filterable.  Click on the column header to sort or apply a filter.
