@@ -22,3 +22,6 @@ Buddy is a Microsoft Packaged Application (using WinUI 3). Packaged applicatiion
 		- Un-installing will delete your application settings.
 
 You do not need to un-install to update Buddy to a later version.  
+
+# Reporting Issues
+You can report issues or bugs using [GitHub](https://github.com/chudave1/Buddy-the-Budget-Helper-Release).
