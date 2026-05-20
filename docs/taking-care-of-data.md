@@ -23,18 +23,18 @@ Take backups at the following times:
 - Whenever you feel you don't want to lose work.
 
 ## Restoring a database
-If you need to recover from a backup, use this process to replace the current database with a previous backup.
+Use the **View Backups** option (from the *File* menu) to view your database backups.  Select the backup to restore from the list and use the *Restore* button.
+Note that to prevent data corruption, the restore will occur the **next** time the application is started. 
 
-1. Backup your current database.  Be sure to add a comment like "Last backup before restore for ..." to the backup.
-2. Use **View Backups** (from the *File* menu) and note the exact backup (by filename) you want.
-3. Use **About** (from the *Help* menu) and note the *Database path*.  This is where the database resides. 
-3. Close Buddy (the application).
-4. Using Windows File Explorer navigate to the database path.  
-	- You should see BuddyBudgetHub.db which is the current database. 
-	- You should see the backup databases named with a date and time stamp, like BuddyBudgetHub_Backup_260312175729.db.
-	- You should see BuddyBudgetHub_Backups.json which is where each backup is logged.  
-5. Delete BuddyBudgetHub.db (or move elsewhere).  Then rename your selected backup database to BuddyBudgetHub.db.
-6. Open Buddy (the application) and you should see your backed up data.
+## Where the database is located
+Buddy is a Microsoft Packaged Applicatiion, and all it's content is contained within the Package folder under your Users directory.   Use the following steps to find your database and backups:
+	1. Use **About** (from the *Help* menu) and note the *Database path*.  This is where the database resides. 
+	2. Using Windows File Explorer navigate to the database path.  
+		- You should see BuddyBudgetHub.db which is the current database. 
+		- You should see the backup databases named with a date and time stamp, like BuddyBudgetHub_Backup_260312175729.db.
+		- You should see BuddyBudgetHub_Backups.json which is where each backup is logged.  
+
+The database backup is a useable database, your can rename it back to BuddyBudgetHub.db if you want to do your own database restore (__make sure Buddy the application is closed__).   But using Buddy's database restore function is highly advised.
 
 ## Buddy keeps track of the database version 
 To ensure that the database remains compatible with the application, there is version information inside the database. 
@@ -44,7 +44,7 @@ To ensure that the database remains compatible with the application, there is ve
 - If Buddy can't update your database, you will get a message that the database is incompatible and you will need to restore a compatible backup, start with a new database, or fix it with an external SQLite tool.
 
 ## Starting with a new database
-If you need to start new (empty) database, use this process to create a database.
+If you need to start new (empty) database, use this process to create a fresh database.
 
 1. Backup your current database. Be sure to add a comment like "Last backup before new database created" to the backup.
 2. Use **About** (from the *Help* menu) and note the *Database path*.
