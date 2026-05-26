@@ -24,7 +24,7 @@ Take backups at the following times:
 
 ## Restoring a database
 Use the **View Backups** option (from the *File* menu) to view your database backups.  Select the backup to restore from the list and use the *Restore* button.
-Note that to prevent data corruption, the restore will occur the **next** time the application is started. 
+Note that to prevent data corruption, the restore will occur the **next** time the application is started.  A backup of your existing database will occur automatically before the restore.
 
 ## Where the database is located
 Buddy is a Microsoft Packaged Applicatiion, and all it's content is contained within the Package folder under your Users directory.   Use the following steps to find your database and backups:
@@ -34,6 +34,7 @@ Buddy is a Microsoft Packaged Applicatiion, and all it's content is contained wi
 		- You should see BuddyBudgetHub.db which is the current database. 
 		- You should see the backup databases named with a date and time stamp, like BuddyBudgetHub_Backup_260312175729.db.
 		- You should see BuddyBudgetHub_Backups.json which is where each backup is logged.  
+		- You might see BuddyBudgetHub_PendingRestore.json where pending restores are logged.
 
 The database backup is a useable database, your can rename it back to BuddyBudgetHub.db if you want to do your own database restore (__make sure Buddy the application is closed__).   But using Buddy's database restore function is highly advised.
 
@@ -41,7 +42,9 @@ The database backup is a useable database, your can rename it back to BuddyBudge
 To ensure that the database remains compatible with the application, there is version information inside the database. 
 - If you restore an older version of the database, Buddy will update it, if he can do so without impacting your existing data.
 	- You can see the database version in the *View Backups* window.
-- If you install a new version of Buddy, Buddy will update your database to support the new application features.
+ 	- It's comprised of 3 numbers; major, intermediare and minor. 
+ 	  
+- If you install a new version of Buddy, Buddy will try to update your database to support the new application features.
 - If Buddy can't update your database, you will get a message that the database is incompatible and you will need to restore a compatible backup, start with a new database, or fix it with an external SQLite tool.
 
 ## Starting with a new database
