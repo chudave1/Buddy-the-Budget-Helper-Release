@@ -2,7 +2,7 @@
 Buddy the Budget Helper, a Windows (WinUI) packaged application for managing your budget.
 
 ## What Does Buddy the Budget Helper Do?
-- Buddy uses the envelope style of budgeting, you define your spending categories and your planned spend amount (budget) for that category. 
+- Buddy uses the envelope style of budgeting, you define your spending categories and your planned spend amount (budget) for that category.  You choose the order in which categories are displayed.
 
 - Buddy helps you track actual spending against your planned budget. It is designed to import transactions from your accounts, help you assign them to the right categories, and summarize transactions into totals by year and month.
 
@@ -16,7 +16,9 @@ Buddy the Budget Helper, a Windows (WinUI) packaged application for managing you
 
 - Buddy speeds things up by automatically suggesting categories based on transaction history, payee nanme, and the account's default category.
 
-- Buddy is reconcilable and accurate to the penny.   
+- Buddy is reconcilable and accurate to the penny.
+  
+- Buddy uses the SQLite database to store your data.  This means your data is accessible outside the application for custom analysis or reporting.
 
 
 ## 🔽 Download
@@ -27,7 +29,4 @@ Buddy the Budget Helper, a Windows (WinUI) packaged application for managing you
 
 👉 https://chudave1.github.io/Buddy-the-Budget-Helper-Release/
 
-## 📊 Templates
-
-* [Define and import categories](templates/Category_Import_Template.csv)
 
