@@ -20,10 +20,11 @@ The historical data import format is one row per current category for a given hi
 - First use *Backup Database* to make sure you have a current backup of your data.  See [Taking Care of Your Data](taking-care-of-data.md).
 
 - Prepare your historical data.  
-	- Gather your historical data into Excel or a similiar spreadsheet program.  The installation includes an **Excel History Import Template** that can help you.      
+	- Gather your historical data into Excel or a similiar spreadsheet program.  Use the **History Import Template** to help you.      
 	- Make sure the categories match your existing (current year values).
-	- Save the spreadsheet as a CSV file.      
-	- You can have multiple years in the same CSV file. 
+	- Save the spreadsheet as a CSV file.  
+	- You can have multiple years in the same CSV file.
+ 	- Edit the import mapping to match your CSV format. 
 	
 - Use the *Import History* menu option under the *Import* menu.
 	- What does the "Delete existing history" option do? 
@@ -33,3 +34,5 @@ The historical data import format is one row per current category for a given hi
 - The main window will refresh and allow you to select any historical years you added.
 - The historical data will be available for comparison on the dashboard.
 
+## Template
+* [History import template](https://github.com/chudave1/Buddy-the-Budget-Helper-Release/blob/main/templates/History_Import_Template.csv)
