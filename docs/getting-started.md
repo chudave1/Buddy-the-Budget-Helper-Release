@@ -3,7 +3,7 @@ layout: default
 title: Getting Started
 ---
 # Getting Started
-Here's how to set up Buddy the Budget Helper.
+Here's how to set up *Buddy the Budget Helper*.
 
 ## How to Get Started
 Follow these steps to define everything before you import your first set of transactions:
@@ -40,6 +40,9 @@ Import category definitions from a CSV file created using the template below. Ch
 
 ### Budgets
 Import yearly or monthly budget amounts from a CSV file.  Use **Setup → Budget → Create Excel Template** to create a template specific to your categories.  Choose the file to import first, then the mapping name you defined in **Setup → Budgets**.  Use the **Delete** option if there was an error in your previous import and you want to start again.
+
+### History
+If you are starting Buddy in the middle of the year and don't want to load all the tramsactions for the previous months, you can use **Import History** to load just the summary data up to the month you want to start loading transactions.  In this case, use the **Import History** option to also load your full year budget amounts, rather than the **Import Yearly Budget** option.
 
 ### Templates
 * [Define and import categories](https://github.com/chudave1/Buddy-the-Budget-Helper-Release/blob/main/templates/Category_Import_Template.csv)

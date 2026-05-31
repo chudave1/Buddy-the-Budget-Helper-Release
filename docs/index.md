@@ -4,6 +4,7 @@ Welcome to the help for Buddy the Budget Helper. Use the links below to jump to 
 
 ## Table of Contents
 
+- [Screenshots](screenshots.md)
 - [Introduction](introduction.md)
 - [Getting Started](getting-started.md)
 - [Working with Transactions](working-with-transactions.md)

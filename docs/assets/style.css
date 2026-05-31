@@ -34,3 +34,25 @@ td, th {
   border: 1px solid #ddd;
   padding: 8px;
 }
+
+/* Screenshot gallery */
+.screenshot-gallery img {
+  display: block;
+  max-width: 100%;
+  margin: 1em 0 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.screenshot-gallery h2 {
+  margin-top: 2.5em;
+  padding-top: 0.5em;
+  border-top: 1px solid #e0e0e0;
+}
+
+.screenshot-gallery h2:first-of-type {
+  margin-top: 1.5em;
+  border-top: none;
+  padding-top: 0;
+}

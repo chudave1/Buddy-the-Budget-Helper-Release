@@ -3,7 +3,7 @@ layout: default
 title: Importing History
 ---
 # Importing Historical Data
-You can import previous years of summary data using a CSV file you generate from your source of historical data.
+You can import previous years of budget and summary data using a CSV file you generate from your source of historical data.
 Importing historical data allows current year to previous year comparisons in both the main window and budget dashboard.
 
 ## Preparing your historical data for import
