@@ -1,10 +1,9 @@
 # Buddy the Budget Helper — Help
 
-Welcome to the help for Buddy the Budget Helper. Use the links below to jump to a topic.
+Welcome to the help for *Buddy the Budget Helper*. Use the links below to jump to a topic.
 
 ## Table of Contents
 
-- [Screenshots](screenshots.md)
 - [Introduction](introduction.md)
 - [Getting Started](getting-started.md)
 - [Working with Transactions](working-with-transactions.md)
@@ -14,3 +13,4 @@ Welcome to the help for Buddy the Budget Helper. Use the links below to jump to 
 - [Importing Historical Data](loading-history.md)
 - [Taking Care of Your Data](taking-care-of-data.md)
 - [Troubleshooting Issues](troubleshooting.md)
+- [Screenshots](screenshots.md)
