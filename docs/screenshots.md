@@ -70,7 +70,7 @@ A single transaction can be split across multiple categories. Buddy starts by di
 
 ![Split Category Amounts](screenshots/Split Category Amounts.jpg)
 
-When items in one purchase are taxed differently—or simply cost different amounts—enter the allocation for each category. The **Taxable** option lets Buddy compute sales tax on the taxable portion so the batch still balances.
+When items in one purchase are taxed differently—or simply cost different amounts—enter the allocation for each category. The **Taxable** option lets Buddy compute sales tax on the taxable portion so the transaction still balances.
 
 ## Actual versus Budget Dashboard
 
