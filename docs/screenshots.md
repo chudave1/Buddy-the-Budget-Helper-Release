@@ -9,7 +9,7 @@ A visual tour of Buddy the Budget Helper. Each image highlights a feature you ca
 
 ## Table of Contents
 
-- [Main Window](#main-window)
+- [Main Window](##main-window)
 - [Page Layout](#page-layout)
 - [Account List](#account-list)
 - [Category Hierarchy](#category-hierarchy)
