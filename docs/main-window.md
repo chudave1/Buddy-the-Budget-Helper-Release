@@ -6,7 +6,7 @@ title: Main Window
 The main window is your primary view of budget versus actual amounts. Here's how to use it.
 
 ## What the Main Window Shows
-The main window shows your budget categories in their page and row order.  If you have defined mutiple pages, the *Back* and *Next* buttons will navigate them.  Only those categories with a budgeted amount will appear on the page. You need to add a budget amount for each category, even if it's zero.
+The main window shows your budget categories in their page and row order.  If you have defined mutiple pages, the *Back* and *Next* buttons will navigate them.  Only those categories with a budgeted amount will appear on the page. You need to add a budget amount for each category you want shown, even if it's zero.
 
 The *Flag* column denotes whether a row has a note, adjustment or correction applied to it.  A yellow flag means just a note, while a red flag means an adjustment or coreection has been applied.
 
@@ -27,7 +27,7 @@ You can also delete a transaction, for example a transaction posted to the wrong
 
 After you correct or delete any transaction, re-run *Summarize Transactions for Budget* so the corrections take affect in the **Main Window**.
 
-Also note that since they are not backed by tranactions, adjustments will be reversed if you re-run  *Summarize Transactions for Budget* for that month.  Use adjustments only when you can simply correct the transactions, and as a final step when you know the summarization is final.
+Also note that since they are not backed by tranactions, adjustments will be reversed if you re-run  *Summarize Transactions for Budget* for that month.  Use adjustments only when you can not correct the transactions, and as a final step when you know the summarization is final.
 
 Both adjustments and corrections will create notes for your reference.
 
