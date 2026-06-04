@@ -15,7 +15,7 @@ A short overview of Buddy the Budget Helper and the terms you'll see throughout 
 
 ## What Makes It Special
 
-- Buddy uses a flexible, spreadsheet-like approach to show budget versus actual amounts by year and month. You choose the order in which categories are displayed.
+- Buddy uses a flexible, spreadsheet-like approach to show budget versus actual amounts by year and month. You choose the exact order in which categories are displayed.
 
 - Buddy supports multiple levels of category roll-ups. For example, "Car Payment", "Car Insurance", and "Car Registration" can roll up to "Total Car Expenses", which can roll up to "Total Living Expenses".
 
@@ -30,11 +30,11 @@ A short overview of Buddy the Budget Helper and the terms you'll see throughout 
 
 ### What Are Accounts
 
-Accounts are the bank or credit accounts you track (e.g., checking, savings, a credit card). Define your accounts in **Setup → Accounts**. *Details to come.*
+Accounts are the bank or credit accounts you track (e.g., checking, savings, a credit card). Define your accounts in **Setup → Accounts**.
 
 ### What Are Categories
 
-Categories are how you group spending and income (e.g., Groceries, Rent, Salary). Define your categories in **Setup → Categories**. 
+Categories are how you group spending and income (e.g., Groceries, Rent, Salary). Define your categories in **Setup → Categories** or via **Import Categories**. 
 
 #### Types of Categories
 
@@ -44,7 +44,7 @@ Categories are how you group spending and income (e.g., Groceries, Rent, Salary)
 
 ### What Are Budgets
 
-Budgets are your planned amounts per category. Define your budgets in **Setup → Budgets** or via **Import**. 
+Budgets are your planned amounts per category. Define your budgets in **Setup → Budgets** or via **Import Yearly Budget**. 
 
 #### Monthly Versus Yearly Budgets
 
