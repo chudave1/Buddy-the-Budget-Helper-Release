@@ -19,7 +19,7 @@ A short overview of Buddy the Budget Helper and the terms you'll see throughout 
 
 - Buddy supports multiple levels of category roll-ups. For example, "Car Payment", "Car Insurance", and "Car Registration" can roll up to "Total Car Expenses", which can roll up to "Total Living Expenses".
 
-- Buddy speeds things up by automatically suggesting categories based on transaction history, payee nanme, and the account's default category.
+- Buddy speeds things up by automatically suggesting categories based on transaction history, payee name, and the account's default category.
 
 - Buddy is reconcilable and accurate to the penny.  
 	- Debit/credit card transactions often include multiple items.  Transactions can be allocated across multiple categories, based on the individual items and any applicable sales tax. 
