@@ -8,7 +8,7 @@ The main window is your primary view of budget versus actual amounts. Here's how
 ## What the Main Window Shows
 The main window shows your budget categories in their page and row order.  If you have defined mutiple pages, the *Back* and *Next* buttons will navigate them.  Only those categories with a budgeted amount will appear on the page. You need to add a budget amount for each category you want shown, even if it's zero.
 
-The *Flag* column denotes whether a row has a note, adjustment or correction applied to it.  A yellow flag means just a note, while a red flag means an adjustment or coreection has been applied.
+The *Flag* column denotes whether a row has a note, adjustment or correction applied to it.  A yellow flag means just a note, while a red flag means an adjustment or correction has been applied.
 
 ## Hiding Columns You Don't Want to See
 Use the *Columns* button to hide or show columns so only the ones you care about are visible. 
