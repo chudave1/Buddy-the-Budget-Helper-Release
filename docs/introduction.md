@@ -34,7 +34,7 @@ Accounts are the bank or credit accounts you track (e.g., checking, savings, a c
 
 ### What Are Categories
 
-Categories are how you group spending and income (e.g., Groceries, Rent, Salary). Define your categories in **Setup → Categories** or via **Import Categories**. 
+Categories are how you group spending and income (e.g., Groceries, Rent, Salary). Define your categories in **Setup → Categories** or via **Import → Categories**. 
 
 #### Types of Categories
 
@@ -44,11 +44,11 @@ Categories are how you group spending and income (e.g., Groceries, Rent, Salary)
 
 ### What Are Budgets
 
-Budgets are your planned amounts per category. Define your budgets in **Setup → Budgets** or via **Import Yearly Budget**. 
+Budgets are your planned amounts per category. Define your budgets in **Setup → Budgets** or via **Import → Yearly Budget**. 
 
 #### Monthly Versus Yearly Budgets
 
-You can work with monthly or yearly budget amounts depending on how you set up your budget. Some items (e.g., "Mortgage Payment") might be budgeted monthly. Others (e.g., "Home Insurance") might be budgeted yearly, regardless of when the payment occurs. Using both keeps large yearly payments from over-stating your monthly view.
+You can work with monthly or yearly budget amounts depending on how you set up your budget. Some categories (e.g., "Mortgage Payment") might be budgeted monthly. Others (e.g., "Home Insurance") might be budgeted yearly regardless of when the payment occurs. Using both keeps large yearly payments from over-stating your monthly view.
 
 ### What Is a Page Layout
 
