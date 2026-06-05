@@ -21,7 +21,7 @@ The historical data import format is one row per current category for a given hi
 
 - Prepare your historical data.  
 	- Gather your historical data into Excel or a similiar spreadsheet program.  Use the **History Import Template** to help you.      
-	- Make sure the categories match your existing (current year values).
+	- Make sure the categories match your existing (current year values).  You can copy them by exporting a **Budget Excel Template**. 
 	- Save the spreadsheet as a CSV file.  
 	- You can have multiple years in the same CSV file.
  	- Edit the import mapping to match your CSV format. 
