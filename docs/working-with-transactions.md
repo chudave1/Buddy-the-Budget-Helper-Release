@@ -45,9 +45,7 @@ You can delete transactions that don't belong in your budget. That's useful when
 
 Billing cycles might cause multiple transactions for a specific monthly expense in the same budget month.  For example, you might have paid the "May" utility bill on May 1 and the "June" utility bill on May 31.  You want to move the May 31 transaction to June so that it's reflected under the correct budget month.
 
-Use this button to move this transaction into the next budget month.  Buddy will create a new "batch" for any transactions you move, and assign the batch to the next budget month.
-
-Reconcile and Post this batch when you are processing this account for your next budget month. 
+Use this button to move this transaction into the next budget month.  Buddy will create a new "batch" for any transactions you move, and assign the batch to the next budget month.  Reconcile and Post this batch when you are processing this account for your next budget month. 
 
 This feature allows you to use consistent monthly date ranges when downloading from your account's web site.   
 
@@ -55,7 +53,7 @@ This feature allows you to use consistent monthly date ranges when downloading f
 
 This button handles two cases: *Return of Goods* and *Receipt of Refund*.
 
-**Return of Goods** — You can adjust the transaction amount to reflect returning an item. For example, you bought two items at Home Depot for $100.00 and returned one for $20.00. You enter a **Refund amount due** for this transaction so $80.00 still needs to be categorized. Buddy treats it as *Return of Goods* when the transaction amount is positive (debit).
+**Return of Goods** — You can adjust the transaction amount to reflect returning an item. For example, you bought two items at Home Depot for $100.00 and returned one for $20.00. You enter a **Refund amount due** of $20.00 for this transaction, so $80.00 still needs to be categorized. Buddy treats it as *Return of Goods* when the transaction amount is positive (debit).
 
 **Receipt of Refund** — When the amount is negative (credit), Buddy treats it as money you actually received back. Buddy tracks that *Return of Goods* and *Receipt of Refund* can happen in different months and keeps track of outstanding refunds per account.
 
@@ -67,26 +65,22 @@ This is the main action for each row. You can also double-click in the *Category
 
 You'll see *Available Categories* (the *Posting*-level categories you can assign) and *Assigned Categories* (your choices). Use the Buttons or Double-click a category to move it between the two. The *Categorized / Remaining* total at the top right shows how much is categorized so far and how much is left. Usually those add up to the *Amount*, unless *Return of Goods* applies to that transaction.
 
-When you assign multiple categories, Buddy splits the transaction amount equally across them. Use *Allocate Amounts Unequally* to enter specific amounts per category. Example: a Costco transaction for $1,080 — $800 for a TV and $280 for food. In many states the TV is taxed and food isn't. For "Big Purchases" you might set the allocated amount to $800 and use the **Taxable** option so Buddy computes sales tax on the TV (e.g., $80). Buddy then shows *Net Allocation* $880 for Big Purchases and the remaining $200 for Food.
+When you assign multiple categories, Buddy splits the transaction amount equally across them. Use *Allocate Amounts Unequally* to enter specific amounts per category. Example: a Costco transaction for $1,128 — $800 for a TV, $280 for food and $48 for sales tax. The TV was taxed and food wasn't. For "Big Purchases" you might set the allocated amount to $800 and use the **Taxable** option so Buddy computes sales tax on the TV (e.g., $48). Buddy then shows *Net Allocation* $880 for Big Purchases and the remaining $280 for Food.
 
-When you assign a single category and there are other transactions in the batch for the same payee, Buddy can show **Apply this category to all other transactions**. If you check it, Buddy applies that category to those transactions too.
+When you assign a single category and there are other non-categorized transactions in the batch for the same payee, Buddy shows **Apply this category to all other transactions**. If you check it, Buddy applies that category to those transactions too.
 
 #### Post Batch
 
-When your batch balances, meaning all the transactions in your batch have been categorized, marked as being returned, or been deleted; the *Post Batch* button will be enabled.  
+When your batch balances, meaning all the transactions in your batch have been categorized, marked as being returned, or been deleted; the *Post Batch* button will be enabled.  Post the batch when you are ready to have it permanently affect your budget.  Note that the batch will be automatically deleted after it's posted.
 
-Post the batch when you are ready to have it permanently affect your budget.  Note that the batch will be automatically deleted after it's posted.
-
-Posted batches can not be reversed in their entirety, though you can correct individual transactions.   *See Main Window for details.*     
+Posted batches can not be reversed in their entirety, though you can correct individual transactions.  See *Main Window* for details.  
 
 #### Delete Batch
 
-Use when you want to start all over.  Perhaps you imported into the wrong account or just want to start again.  
+Use when you want to start reconciling all over.  Perhaps you imported into the wrong account or just want to start again.  
 
 ## Summarizing Transactions
 
-Once transactions are categorized, summarize them so they roll up into your budget view on the main window. Use **Tasks → Summarize Transactions to Budget**.
+Once all transactions for the month are posted, summarize them so they roll up into your budget view on the main window. Use **Tasks → Summarize Transactions to Budget**.  This process summarizes all transactions for each *Posting*-level category by the budget month you posted to, then rolls the data up into the sub-total, intermediate, and final categories you defined.
 
-This process totals all transactions for each *Posting*-level category by the budget month you posted to, then rolls the data up into the sub-total, intermediate, and final categories you defined.
-
-Usually you run this after posting all batches for the month. You can run **Summarize Transactions** at any time; it will re-summarize all posted transactions for the month.
+Usually you run this after posting all batches for the month. You can run **Summarize Transactions** at any time; it will re-summarize all posted transactions for the month.  It does not work on a batch by batch basis.
