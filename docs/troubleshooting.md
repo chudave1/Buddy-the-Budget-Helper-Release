@@ -9,7 +9,7 @@ What to do when something goes wrong.
 If your data is corrupted or missing, restore from a backup. See [Taking Care of Your Data](taking-care-of-data.md) for backing up and restoring.
 
 ## Starting from scratch
-If you want to reset and begin again, you can start from scratch by deleting the database or from a specific point using retore.  See [Taking Care of Your Data](taking-care-of-data.md) for deleting or restoring.
+If you want to reset and begin again, you can start from scratch by deleting the database or from a specific point using restore.  See [Taking Care of Your Data](taking-care-of-data.md) for deleting or restoring.
 
 ## Un-installing Buddy
 Buddy is a Microsoft Packaged Application (using WinUI 3). Packaged applications have a predictable installation, update, and servicing model on Windows.  As you install and un-install Buddy, here are some things you should know:
