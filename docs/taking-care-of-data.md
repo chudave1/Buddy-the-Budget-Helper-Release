@@ -42,7 +42,7 @@ The database backup is a useable database, your can rename it back to BuddyBudge
 To ensure that the database remains compatible with the application, there is version information inside the database. 
 - If you restore an older version of the database, Buddy will update it, if he can do so without impacting your existing data.
 	- You can see the database version in the *View Backups* window.
- 	- It's comprised of 3 numbers; major, intermediare and minor. 
+ 	- It's comprised of 3 numbers: major, intermediate and minor.  Buddy won't restore if the major version is not current.
  	  
 - If you install a new version of Buddy, Buddy will try to update your database to support the new application features.
 - If Buddy can't update your database, you will get a message that the database is incompatible and you will need to restore a compatible backup, start with a new database, or fix it with an external SQLite tool.
