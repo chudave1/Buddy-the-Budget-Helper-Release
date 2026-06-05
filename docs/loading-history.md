@@ -29,7 +29,7 @@ The historical data import format is one row per current category for a given hi
 - Use the *Import History* menu option under the *Import* menu.
 	- What does the "Delete existing history" option do? 
 		- This option deletes the existing budgets and summary data for any years contained within the input file.  
-		- Use it to re-import after any correction to your file.
+		- Use it to re-import after any correction to your file.  Be careful not to delete your current year.
 
 - The main window will refresh and allow you to select any historical years you added.
 - The historical data will be available for comparison on the dashboard.
