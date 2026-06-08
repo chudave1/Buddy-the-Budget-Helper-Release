@@ -14,4 +14,5 @@ Welcome to the help for *Buddy the Budget Helper*. Use the links below to jump t
 - [Taking Care of Your Data](taking-care-of-data.md)
 - [Troubleshooting Issues](troubleshooting.md)
 - [Screenshots](screenshots.md)
+- [Sample Database](https://github.com/chudave1/Buddy-the-Budget-Helper-Release/blob/main/sample_database/README.md)
 - [Privacy Policy](privacy-policy.md)
