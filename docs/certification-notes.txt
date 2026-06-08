@@ -1,0 +1,74 @@
+TESTING INSTRUCTIONS — Buddy the Budget Helper
+
+NO USER LOGIN REQUIRED
+This app does not use usernames, passwords, Microsoft accounts, or any publisher-
+hosted login. There is no test account to create. All data is stored locally on
+the PC in a SQLite database. The app works fully offline.
+
+IMPORTANT: "Accounts" in this app means bank/credit card definitions (e.g.,
+"Checking", "Citibank Visa") for tracking spending. It does NOT mean user
+authentication and does NOT connect to any bank website.
+
+FIRST LAUNCH
+On first launch the main window is intentionally empty. This is expected — the
+app creates a new local database automatically. No sign-in screen appears.
+
+SAMPLE FILES (download from GitHub)
+Sample data for certification testing is maintained on GitHub and is not bundled
+in the app package. Download the CSV files below to a local folder (e.g. Downloads)
+before importing them into the app.
+Repository folder:
+https://github.com/chudave1/Buddy-the-Budget-Helper-Release/tree/main/sample_database
+
+Step-by-step walkthrough with screenshots:
+https://github.com/chudave1/Buddy-the-Budget-Helper-Release/blob/main/sample_database/README.md
+
+Files needed for testing:
+  Required (steps 2–4 below):
+  • Sample_Database_Category_Import.csv
+    https://github.com/chudave1/Buddy-the-Budget-Helper-Release/blob/main/sample_database/Sample_Database_Category_Import.csv
+  • Sample_Database_History_Import.csv
+    https://github.com/chudave1/Buddy-the-Budget-Helper-Release/blob/main/sample_database/Sample_Database_History_Import.csv
+  Optional (transaction import and reconciliation, step 5 below):
+  • Sample_Database_Transactions_Citibank.csv
+    https://github.com/chudave1/Buddy-the-Budget-Helper-Release/blob/main/sample_database/Sample_Database_Transactions_Citibank.csv
+  
+  Not required for basic certification:
+  • Sample_Database_Budget_Import.csv (history import above already includes budget data)
+  • Sample_Database_Account_Insert.sql (advanced; account setup is done in the UI for step 5)
+
+QUICK TEST (about 5 minutes) — load sample data:
+1. Launch the app. No login is required.
+2. Import sample categories:
+   - Menu: Import → Categories
+   - File: Sample_Database_Category_Import.csv (downloaded from GitHub above)
+   - Mapping: use default / first available mapping
+   - Expect: 34 rows imported successfully
+3. Import sample history (budget vs. actual summary data):
+   - Menu: Import → History
+   - File: Sample_Database_History_Import.csv (downloaded from GitHub above)
+   - Expect: 56 rows imported successfully
+   - The main window should now show budget data for 2025–2026
+4. View dashboards:
+   - Menu: Analysis → Dashboards
+   - Select "Actual vs Budget" or "Breakdown" — charts should display data
+5. (Optional) Test transaction import and reconciliation:
+   - Setup → Accounts → Add account (any name, e.g. "Citibank Visa")
+   - Edit Import Mapping for that account (column mapping details and
+     screenshots: see sample_database/README.md on GitHub)
+   - Monthly Tasks → Import Transactions → Sample_Database_Transactions_Citibank.csv
+   - Monthly Tasks → Review and Categorize Transactions
+
+FEATURES TO VERIFY
+- Main budget window (year/month grid)
+- Category setup (Setup → Categories)
+- Budget setup (Setup → Budgets)
+- CSV import (Import menu)
+- Transaction reconciliation (Monthly Tasks)
+- Analysis dashboards (Analysis → Dashboards)
+- Database backup/restore (File menu)
+- Help opens documentation in the browser (only network use)
+
+PRIVACY
+No personal data is collected or transmitted. See in-app Help or:
+https://chudave1.github.io/Buddy-the-Budget-Helper-Release/privacy-policy.html
