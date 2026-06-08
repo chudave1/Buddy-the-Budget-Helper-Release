@@ -34,25 +34,29 @@ This folder contains sample files you can import to create a database for evalua
 ![Analysis -> Dashboards](screenshots/breakdown-dashboard-sample.jpg)
 
 
-6. **Optional Create Bank Account and Import Tranactions** - If you want to import transaction data and try the reconcilation process follow these steps:
+6. **Optional - Create Bank Account and Import Tranactions** - If you want to import transaction data and try the reconcilation process follow these steps:
 
     6a. **Create a Bank Account** - Create a bank account, the sample data is credit card transactions.  You can use any bank name. 
 
 ![Setup -> Accounts](screenshots/create-sample-bank-account.jpg)
 
 
-    6b. **Create the Import Mapping** - Define the import transaction mapping for this bank account.  The screen below shopws the format of the sample transactions.
+    6b. **Create the Import Mapping** - Define the import transaction mapping for this bank account.  
+    The screen below shows the format of the sample transactions.
 
 ![Setup -> Accounts](screenshots/create-sample-bank-import-mapping.jpg)
 
-    6c. **Import the Transactions** - Import the sample transaction data for this bank account.  38 rows should be successfullly imported.      
+    6c. **Import the Transactions** - Import the sample transaction data for this bank account.  
+    38 rows should be successfullly imported.      
 
 ![Monthly Tasks -> Import Transactions](screenshots/import-sample-transactions.jpg)
 
 ![Monthly Tasks -> Import Transactions](screenshots/import-sample-transactions-success.jpg)
 
 
-    6d. **Review and Categorize Transactions** - Select your bank account and your newly imported batch.  You will see the 38 transactions in the reconcile grid.  There are sample transactions for most of the scenarios (delete, return, split).     
+    6d. **Review and Categorize Transactions** - Select your bank account and your newly imported batch.  
+    You will see the 38 transactions in the reconcile grid.  
+    There are sample transactions for most of the scenarios (delete, return, split).     
 
 ![Monthly Tasks -> Review and Categorize Transactions](screenshots/reconcile-sample-transactions.jpg)
 
