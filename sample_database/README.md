@@ -2,6 +2,8 @@
 ## Sample Database
 This folder contains sample files you can import to create a database for evaluating *Buddy the Budget Helper* and better understanding it's features.
 
+**Note that *Buddy the Budget Helper* (Version 1.5.1) now includes this sample database and gives you the option to restore it upon first app start-up.  But using these sample files allows you to freshen the dates before you load them.** 
+
 ## Creating a Sample Database
 1. **Initial Main Window** - The application starts with an empty database and the Main Window will look like this:
 

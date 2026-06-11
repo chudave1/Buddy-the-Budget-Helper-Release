@@ -30,4 +30,12 @@ Buddy the Budget Helper, a Windows (WinUI) packaged application for managing you
 👉 https://chudave1.github.io/Buddy-the-Budget-Helper-Release/
 
 
+## 📜 Release History
 
+Application Versions
+- Version 1.5.0 - First Microsoft Store Release (never published)
+- Version 1.5.1 - Adds option to start with a fresh database or restore the sample database.
+
+Database Versions
+- Version 2.1.1 - Pre-Microsoft Store Version 
+- Version 2.1.2 - Changes to SummaryCross view

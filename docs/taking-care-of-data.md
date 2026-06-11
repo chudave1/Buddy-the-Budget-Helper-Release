@@ -7,7 +7,6 @@ How Buddy stores your data and how to back it up and restore it.
 
 ## Use of a database
 Buddy stores your accounts, categories, budgets, and transactions in a local database. 
-
 Buddy will automatically create the database upon first use. 
 
 
