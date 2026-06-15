@@ -23,7 +23,7 @@ Buddy the Budget Helper, a Windows (WinUI) packaged application for managing you
 
 ## 🔽 Download
 
-👉 https://github.com/chudave1/Buddy-the-Budget-Helper-Release/releases/latest
+👉 https://apps.microsoft.com/detail/9p8nnjr4m0wb?hl=en-US&gl=US
 
 ## 📖 Documentation and Screenshots
 
