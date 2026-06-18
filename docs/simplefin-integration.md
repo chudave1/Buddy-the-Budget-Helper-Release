@@ -45,9 +45,9 @@ A pass phrase further secures the access URL by essentially associating a passwo
 ## SimpleFIN Credential Storage
 After exchanging a setup token, the SimpleFIN access URL is saved in the local machine's application data settings (ApplicationData.LocalSettings) on your computer.  The access URL is not stored in the database and is not affected by database restores. 
 
-	- If no pass phrase is set, the access URL is protected with Windows DPAPI (current-user scope).
-	- If a pass phrase is set, the URL is encrypted with AES-256-GCM. The pass phrase is not stored.
-	- Buddy is an MSIX-packaged app; this data is stored in the package's isolated settings store and is removed when the app is uninstalled.
+- If no pass phrase is set, the access URL is protected with Windows DPAPI (current-user scope).
+- If a pass phrase is set, the URL is encrypted with AES-256-GCM. The pass phrase is not stored.
+- Buddy is an MSIX-packaged app; this data is stored in the package's isolated settings store and is removed when the app is uninstalled.
 
 ## Disclaimer
 
