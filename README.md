@@ -35,7 +35,10 @@ Buddy the Budget Helper, a Windows (WinUI) packaged application for managing you
 Application Versions
 - Version 1.5.0 - First Microsoft Store Release (never published)
 - Version 1.5.1 - Adds option to start with a fresh database or restore the sample database.
+- Version 1.6.0 - Generates sample database if requested on first use (no restore needed).  Adds SimpleFIN integration.  Improves transaction split input.
 
 Database Versions
 - Version 2.1.1 - Pre-Microsoft Store Version 
 - Version 2.1.2 - Changes to SummaryCross view
+- Version 2.2.2 - Changes to Account table for SimpleFIN integration.  Application Version 1.6.0 will migrate above schema versions to 2.2.2 
+
