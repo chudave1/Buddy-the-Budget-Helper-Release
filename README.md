@@ -14,7 +14,7 @@ Buddy the Budget Helper, a Windows (WinUI) packaged application for managing you
 
 - Buddy supports multiple levels of category roll-ups. For example, "Car Payment", "Car Insurance", and "Car Registration" can roll up to "Total Car Expenses", which can roll up to "Total Living Expenses".
 
-- Buddy speeds things up by automatically suggesting categories based on transaction history, payee nanme, and the account's default category.
+- Buddy speeds things up by automatically suggesting categories based on transaction history, payee name, and the account's default category.
 
 - Buddy is reconcilable and accurate to the penny.
   
