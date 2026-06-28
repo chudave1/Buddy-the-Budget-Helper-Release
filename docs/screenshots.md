@@ -21,6 +21,7 @@ A visual tour of Buddy the Budget Helper. Each image highlights a feature you ca
 - [Year versus Year Dashboard](#year-versus-year-dashboard)
 - [Breakdown Dashboard](#breakdown-dashboard)
 - [Uses SQLite](#uses-sqlite)
+- [SimpleFIN Integration](#simplefin-integration)
 
 <div class="screenshot-gallery" markdown="1">
 
@@ -107,5 +108,12 @@ Pick a summary-level category and see how much each child category contributesâ€
 
 
 Buddy stores accounts, categories, budgets, and transactions in a local SQLite database. Your data stays on your PC and remains accessible outside the app for backup, custom analysis, or reporting.
+
+## SimpleFIN Integration
+
+<img src="{{ '/assets/screenshots/SimpleFin-Setup-Blur.jpg' | relative_url }}" alt="SimpleFIN Integration">
+
+
+Buddy can integrate with SimpleFIN.  If you subscribe to it, Buddy can directly access your monthly transactions without you having to sign onto your financial account and download a file each time.   Buddy never accesses your data without you in control. 
 
 </div>
