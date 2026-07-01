@@ -38,6 +38,8 @@ Under the **Monthly Tasks** menu there are options to import transactions using 
 
 All transactions imported together form a single "batch" for that account. The date and time of import are kept so you can identify the batch. See [Working with Transactions](working-with-transactions.md) for further details.
 
+Note that Buddy will only import posted transactions using SimpleFin integration.  This is consistent to what most financial institutions provide on their CSV exports, meaning the transaction date they provide is the date posted to your account.      
+
 ## Using a Pass Phrase
 A pass phrase further secures the access URL by essentially associating a password to it.  If used, you will have to supply the pass phrase every time Buddy imports your transactions.  A pass phrase may be useful if you share a computer with others and share the same Windows login.  Buddy does not persist your pass phrase. If you forget it, use **Delete Access URL** and go back to SimpleFIN and get a fresh setup token.
 
